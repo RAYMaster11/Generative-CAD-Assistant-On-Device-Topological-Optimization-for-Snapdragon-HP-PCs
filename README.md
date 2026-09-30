@@ -1,0 +1,12 @@
+Proposal Title: Generative CAD Assistant: On-Device Topological Optimization for Snapdragon HP PCs
+​1. Problem Statement & Use Case
+Advanced 3D modeling and structural simulation in software like SolidWorks and Ansys traditionally require expensive, power-hungry discrete GPUs or reliance on cloud-based processing. Observations from organizing technical competitions, such as the "IGNITION" CAD challenge as a founding member of the Association of Mechanical Engineers, highlight a persistent bottleneck: students and engineers are frequently delayed by hardware limitations when attempting complex topological optimizations. There is a critical need for an accessible, low-latency assistant that can analyze CAD geometries and suggest structural reinforcements locally without requiring a massive workstation.
+​2. Proposed Solution
+The Generative CAD Assistant is an on-device AI tool designed to integrate seamlessly into existing mechanical engineering workflows. It analyzes exported 3D meshes and geometries, utilizing artificial intelligence to instantly suggest weight-saving topological optimizations and structural reinforcements. By shifting this reasoning workload from the cloud to the local machine, the assistant provides real-time feedback during the design phase, drastically reducing iteration time.
+​3. Snapdragon Optimization & AI Integration
+This solution is explicitly designed to be optimized for Snapdragon-powered HP PCs, leveraging their advanced heterogeneous compute architecture.  
+​Qualcomm AI Hub Integration: The assistant will incorporate pre-quantized geometric deep learning and computer vision models from the Qualcomm AI Hub or compatible open-source platforms.  
+​NPU Utilization: Heavy inferencing tasks regarding spatial awareness and structural integrity will be offloaded to the Snapdragon NPU. This frees up the CPU and GPU to handle the standard rendering tasks of the CAD software.
+​Thermal & Power Efficiency: By utilizing the NPU for AI workloads, the assistant operates within the power envelope of a standard, thin-and-light Snapdragon PC, avoiding the thermal throttling typically associated with running intense CAD simulations on standard laptops.
+​4. Impact & Accessibility
+Running the Generative CAD Assistant completely offline ensures that sensitive intellectual property and proprietary drone or robotic designs never leave the device, guaranteeing absolute data privacy. Furthermore, it democratizes access to advanced generative design tools, allowing them to run highly efficiently on lightweight hardware.
